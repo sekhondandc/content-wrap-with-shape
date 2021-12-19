@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #292929;
+    font-family: 'Open Sans',sans-serif;
+}
+p{
+    color: #ffffff;
+    text-align: justify;
+    padding: 20px;
+}
+.circle{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #d1d1d1;
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+}
+.ellipse{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #d1d1d1;
+    shape-outside: ellipse(50px 100px at 50% 50%);
+    clip-path: ellipse(50px 100px at 50% 50%);
+}
+.polygon{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #d1d1d1;
+    shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
